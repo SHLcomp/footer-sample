@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+/* header-pic */
+.header-pic{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    display: flex;
+    top: 3cm;
+    left: 2cm;
+}
+.opening{
+    position: absolute;
+    width: 100%;
+    min-height: 30cm;
+    top: 0;
+    left: 0;
+    opacity: 70%;
+}
+.title{
+    display: flex;
+    top: 2cm;
+    left: 2cm;
+}
+.title:hover{
+    border: 6px , transparent, solid;
+}
+
+.p2{
+    position: inherit;
+    top: 1cm;
+}
+h1{
+    size: 10cm;
+    font-family: monospace;
+    color: white;
+   font-size: 3rem;
+}
+.infoweb{
+    position: absolute;
+    margin-top: 5cm;
+    margin-left: 22cm;
+}
+.info{
+    color: black;
+    font-size: 2rem;
+    text-align: right;
+    margin-right: 2cm;
+}
+/*sign in info */
+.form-container{
+    display: flex;
+    position: absolute;
+    top: 15cm;
+    left: 17cm;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: right;
+    width: 50%;
+}
+.form-p{
+    font-size: 18px;
+}
+.end-signup{
+    padding: 10px 10px 10px 10px;
+    margin-top: 5px;
+    border-radius: 20%;
+    border-style: double;
+    background: linear-gradient(0.25turn, #fd66e2, #d15dff);
+    font-size: 20px;
+}
+.email-input{
+    padding: 7px 7px;
+    text-align: right;
+    font-size: 20px;
+}
+.email2-input{
+    padding: 7px 7px;
+    text-align: right;
+    font-size: 20px;
+}
+
+/* extras */
+.extras-container{
+    background-color: #ffffffb1;
+    border-radius: 20%;
+    position: absolute;
+    top: 20cm;
+    padding-left: 3cm;
+    padding-right: 3cm;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.extras-title{
+    text-align: center;
+    color: black;
+}
+.extras-p{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+.extras-p-div{
+    
+    padding-left: 5cm;
+    padding-right: 5cm;
+}
+/* extras2 */
+.extras2-container{
+    position: absolute;
+    top: 25cm;
+    left: 13cm;
+    display: flex;
+}
+.extras-pic{
+    width: 100px;
+    height: 100;
+}
+
+
+
+/* play button */
+.submitbtn{
+    border-radius: 20%;
+    padding: 10px 20px 20px 20px;
+    position: absolute;
+    top: 3cm;
+    left: 26cm;
+    background-color: rgb(90, 243, 243);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.submitbtn:hover{
+    border-radius: 10%;
+}
+.a-submitbtn{
+    text-decoration: none;
+    color: black;
+}
+.submitbtnimg{
+    width: 34.2px;
+    height: 34.2px;
+    position: relative;
+    top: 9px;
+}
+/*footer*/
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+    position: relative;
+    top: 17cm;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+ul{
+    list-style: none;
+
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px; 
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(225, 225, 225, 0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
